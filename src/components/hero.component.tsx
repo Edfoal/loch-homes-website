@@ -22,7 +22,6 @@ export default function Hero() {
                     flex gap-6 text-white text-sm font-medium 
                     justify-center w-full 
                     lg:w-auto lg:right-8 lg:justify-end
-                    animate-bounceInUp
                 "
             >
                 <a href="#about" className="hover:text-blue-200 transition">
