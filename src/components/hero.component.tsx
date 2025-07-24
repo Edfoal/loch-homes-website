@@ -13,7 +13,7 @@ export default function Hero() {
             />
             {/* ✅ Overlay for better readability */}
             {/* ✅ Circular vignette overlay */}
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(0,0,0,0.2)_10%,rgba(0,0,0,0.75)_80%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(0,0,0,0.2)_10%,rgba(0,0,0,0.75)_80%)]" />
 
             {/* ✅ NAVBAR */}
             <nav
@@ -39,7 +39,7 @@ export default function Hero() {
             {/* ✅ Bottom-left Section */}
             <div
                 className="
-                    absolute left-16 right-16 bottom-16 z-20
+                    absolute left-16 right-16 bottom-16 sm:w-auto sm:left-8 sm:right-8 z-20
                     flex flex-col items-left gap-4
                     lg:flex-row lg:items-center lg:gap-6 lg:left-16 lg:right-auto lg:bottom-16
                 "
