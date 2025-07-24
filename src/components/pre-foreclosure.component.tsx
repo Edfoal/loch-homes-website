@@ -6,13 +6,13 @@ export default function PreForeclosureSection() {
         <div className="container mx-auto max-w-8xl flex flex-col gap-8">
             {/* ✅ Heading */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center leading-snug">
-                Are you facing a pre-foreclosure and wondering if you can <br />
-                keep the equity you've built in your home?
+                {`Are you facing a pre-foreclosure and wondering if you can <br />
+                keep the equity you've built in your home?`}
             </h2>
 
             {/* ✅ Paragraph */}
             <p className="text-base sm:text-lg text-center leading-relaxed">
-                The good news is that rising home prices in many markets mean you
+                {`The good news is that rising home prices in many markets mean you
                 might still have options to avoid a short sale and get cash back from
                 your property. Even if you’re currently in mortgage forbearance or
                 pre-foreclosure, there may still be time to take action and protect
@@ -23,7 +23,7 @@ export default function PreForeclosureSection() {
                 forecloses on it. We may be able to make you a fair cash offer that
                 covers your debts and leaves you with extra funds to move on to the
                 next chapter of your life. Contact us today to learn more about your
-                options and take control of your financial future.
+                options and take control of your financial future.`}
             </p>
 
             {/* ✅ Image */}

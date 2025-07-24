@@ -56,11 +56,11 @@ export default function ContactSection() {
             <div className="flex items-start gap-2">
               <input type="checkbox" className="mt-1" />
               <p className="text-xs text-gray-600">
-                By clicking "SUBMIT," you agree to Loch Homes' Terms of Use and
+                {`By clicking "SUBMIT," you agree to Loch Homes' Terms of Use and
                 Privacy Policy. You consent to receive phone calls and SMS
                 messages to provide updates on your inquiry or for marketing
                 purposes. Message frequency depends on your activity. You may
-                opt-out by texting "STOP." Message and data rates may apply.
+                opt-out by texting "STOP." Message and data rates may apply. `}
               </p>
             </div>
 
