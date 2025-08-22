@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "../styles/globals.css";
 
 // Load Google Fonts
@@ -55,6 +56,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <script defer async src="https://cdn.trustindex.io/loader.js?3b2ba37518721940b786b6795f1"/>
+            </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
             >
