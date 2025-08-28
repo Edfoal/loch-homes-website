@@ -58,7 +58,7 @@ export default function Footer() {
 				{/* ✅ Column 4: Legal Links */}
 				<div className="flex flex-col gap-3 text-sm">
 					<a href="/terms" className="hover:text-orange-400">Terms & Conditions</a>
-					<a href="#" className="hover:text-orange-400">Privacy Policy</a>
+					<a href="/privacy" className="hover:text-orange-400">Privacy Policy</a>
 				</div>
 				</div>
 
