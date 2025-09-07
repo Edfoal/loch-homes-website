@@ -41,9 +41,8 @@ export const metadata: Metadata = {
         description: "A modern single-page website built with Next.js and Tailwind CSS.",
     },
     icons: {
-        icon: "/favicon.ico",
-        shortcut: "/favicon.ico",
-        apple: "/apple-touch-icon.png",
+        icon: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg",
+        apple: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg",
     },
     metadataBase: new URL("https://yourwebsite.com"),
 };
@@ -57,8 +56,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <link rel="icon" href="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg" />
+                <link rel="apple-touch-icon" href="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg" />
                 <script defer async src="https://cdn.trustindex.io/loader.js?3b2ba37518721940b786b6795f1"/>
             </head>
             <body

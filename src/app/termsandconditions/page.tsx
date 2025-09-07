@@ -7,7 +7,7 @@ export default function TermsPage() {
       <nav className="bg-[#0F666B] py-4 px-6 flex justify-between items-center shadow-md flex-wrap">
         <Link href="/" className="flex items-center space-x-2 mb-2 sm:mb-0">
           <Image
-            src="/loch-homes-logo-2.svg"
+            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg"
             alt="Loch Homes"
             width={140}
             height={50}
@@ -15,7 +15,7 @@ export default function TermsPage() {
           />
         </Link>
         <Link
-          href="/contact"
+          href="/#contact-us"
           className="bg-white text-gray-800 font-medium px-4 py-2 rounded-md shadow hover:bg-gray-100 transition"
         >
           Contact Us
@@ -35,7 +35,7 @@ export default function TermsPage() {
         </div>
       </nav>
 
-      <main className="min-h-screen bg-white text-gray-900 mb-6">
+      <main className="min-h-screen bg-white text-gray-900 mb-6 pb-6 text-justify">
         <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 mb-12 leading-relaxed">
           <h1 className="text-3xl sm:text-[40px] font-bold mb-6 text-center text-[#C2613D] pt-6">Terms & Conditions</h1>
           <p className="mb-4 font-semibold text-sm sm:text-base">

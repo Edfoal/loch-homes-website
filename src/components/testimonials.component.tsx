@@ -9,40 +9,40 @@ import { FaQuoteLeft } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing ut nisi leo nibh eros in. Sed nulla quis scelerisque vitae. Fringilla massa facilisis non mattis mauris nisl. Dui ut hendrerit fames imperdiet proin nisl sit mauris.",
-    author: "Francis Towne",
+    text: "This crew is seriously awesome! Super professional, totally ethical, and they genuinely care. You know how businesses these days are all about themselves, right? Well, Kaylee smashes that stereotype with their top-notch service. When I had to deal with the whole probate thing after my mom passed, they were a lifesaver. Our family home and all the stuff mom worked so hard for were on the line, and these folks were patient beyond belief. Seriously, choosing Kaylee was like having a real ally to navigate a tough time. Huge props to them!",
+    author: "Amanda Zukerman",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing ut nisi leo nibh eros in. Sed nulla quis scelerisque vitae. Fringilla massa facilisis non mattis mauris nisl. Dui ut hendrerit fames imperdiet proin nisl sit mauris.",
-    author: "Jane Smith",
+    text: "I can’t say enough nice things about Kaylee and LochHomes. Kaylee was a bright positive light in the dark situation I found myself in. She helped us even when she received nothing for it… you just don’t find to many people like that. She was honest and straight forward and I would recommend her and the company she works for 100%.",
+    author: "Alexa Bonadia",
   },
-  {
-    id: 3,
-    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing ut nisi leo nibh eros in. Sed nulla quis scelerisque vitae. Fringilla massa facilisis non mattis mauris nisl. Dui ut hendrerit fames imperdiet proin nisl sit mauris.",
-    author: "David Miller",
-  },
+//   {
+//     id: 3,
+//     text: "Lorem ipsum dolor sit amet consectetur. Adipiscing ut nisi leo nibh eros in. Sed nulla quis scelerisque vitae. Fringilla massa facilisis non mattis mauris nisl. Dui ut hendrerit fames imperdiet proin nisl sit mauris.",
+//     author: "David Miller",
+//   },
 ];
 
 function TestimonialCard({ text, author }: { text: string; author: string }) {
-  return (
-    <div className="relative bg-white border border-orange-200 shadow-md rounded-md p-6 text-gray-600 max-w-md mx-auto">
-      {/* ✅ Icon stays INSIDE the card safely */}
-      <div className="flex justify-start mb-4">
-        <div className="bg-[#B5542F] text-white p-2 rounded-full">
-          <FaQuoteLeft />
-        </div>
-      </div>
+	return (
+		<div className="relative bg-white shadow-md rounded-md text-gray-600 max-w-md mx-auto overflow-visible">
+		{/* ✅ Brown border across full width */}
+		<div className="absolute top-0 left-0 right-0 h-[4px] bg-[#B5542F] rounded-t-md" />
 
-      {/* ✅ Testimonial Text */}
-      <p className="text-sm leading-relaxed">{text}</p>
+		{/* ✅ Quote Icon overlapping border on top-left */}
+		<div className="absolute -top-4 left-10 bg-[#B5542F] text-white p-2 rounded-full shadow-md">
+				<FaQuoteLeft size={20} />
+		</div>
 
-      {/* ✅ Author */}
-      <p className="mt-4 font-semibold text-black">{author}</p>
-    </div>
-  );
+		{/* ✅ Card Content */}
+		<div className="p-6 pt-8">
+			<p className="text-sm leading-relaxed">{text}</p>
+			<p className="mt-4 font-semibold text-black">{author}</p>
+		</div>
+		</div>
+	);
 }
-
 
 export default function Testimonials() {
   return (
@@ -58,14 +58,14 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        {/* ✅ Desktop: Static Grid */}
-        <div className="hidden md:grid grid-cols-3 gap-6 justify-items-center">
+        {/* ✅ Desktop: Grid Layout */}
+        <div className="hidden md:grid grid-cols-3 gap-8 justify-items-center">
           {testimonials.map((t) => (
             <TestimonialCard key={t.id} text={t.text} author={t.author} />
           ))}
         </div>
 
-        {/* ✅ Mobile: Carousel */}
+        {/* ✅ Mobile: Swiper Carousel */}
         <div className="md:hidden">
           <Swiper
             modules={[Pagination, Autoplay]}
@@ -73,10 +73,10 @@ export default function Testimonials() {
             autoplay={{ delay: 3000 }}
             slidesPerView={1}
             loop={true}
-            className="pb-10"
+            className="pb-8"
           >
             {testimonials.map((t) => (
-              <SwiperSlide key={t.id}>
+              <SwiperSlide key={t.id} className="overflow-visible pt-10">
                 <TestimonialCard text={t.text} author={t.author} />
               </SwiperSlide>
             ))}

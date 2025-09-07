@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative w-full h-screen">
+        <section id="hero" className="relative w-full h-screen">
             {/* ✅ Background Image covering full viewport */}
             <Image
-                src="https://ik.imagekit.io/dt5nhkwoy/assets/pexels-photo-7031607.jpeg?updatedAt=1753362045284" // Replace with ImageKit background URL
+                src="https://ik.imagekit.io/lochhomesllc/assets/pexels-photo-7031607.jpeg" // Replace with ImageKit background URL
                 alt="Hero Background"
                 fill
                 priority
@@ -13,7 +13,15 @@ export default function Hero() {
             />
             {/* ✅ Overlay for better readability */}
             {/* ✅ Circular vignette overlay */}
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(0,0,0,0.2)_10%,rgba(0,0,0,0.75)_80%)]" />
+            <div
+                className="
+                    absolute inset-0
+                    bg-[radial-gradient(circle_at_50%_30%,rgba(0,0,0,0.2)_10%,rgba(0,0,0,0.75)_80%)]
+                    sm:bg-[radial-gradient(circle_at_50%_35%,rgba(0,0,0,0.2)_15%,rgba(0,0,0,0.75)_85%)]
+                    md:bg-[radial-gradient(circle_at_50%_40%,rgba(0,0,0,0.2)_20%,rgba(0,0,0,0.75)_90%)]
+                    lg:bg-[radial-gradient(circle_at_50%_30%,rgba(0,0,0,0.2)_10%,rgba(0,0,0,0.75)_80%)]
+                "
+            />
 
             {/* ✅ NAVBAR */}
             <nav
@@ -24,13 +32,13 @@ export default function Hero() {
                     lg:w-auto lg:right-8 lg:justify-end
                 "
             >
-                <a href="#about-us" className="hover:text-blue-200 transition">
+                <a href="#about-us" className="hover:text-blue-200 transition text-gray-300 mt-2 text-sm sm:text-base lg:text-lg text-center lg:text-left">
                     About Us
                 </a>
-                <a href="#reviews" className="hover:text-gray-200 transition">
+                <a href="#reviews" className="hover:text-gray-200 transition text-gray-300 mt-2 text-sm sm:text-base lg:text-lg text-center lg:text-left">
                     Reviews
                 </a>
-                <a href="#how-it-works" className="hover:text-gray-200 transition">
+                <a href="#how-it-works" className="hover:text-gray-200 transition text-gray-300 mt-2 text-sm sm:text-base lg:text-lg text-center lg:text-left">
                     How it Works
                 </a>
             </nav>
@@ -51,11 +59,11 @@ export default function Hero() {
                     {/* Mobile → logo-2 */}
                     <div className="block lg:!hidden justify-center">
                         <Image
-                            src="/loch-homes-logo-2.svg"
+                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-2.svg"
                             alt="Loch Homes Logo"
                             width={300}
                             height={300}
-                            className="w-56 object-contain"
+                            className="w-60 object-contain"
                             priority
                         />
                     </div>
@@ -63,25 +71,25 @@ export default function Hero() {
                     {/* Tablet & Desktop → logo-1 */}
                     <div className="hidden lg:!block justify-left">
                         <Image
-                            src="/loch-homes-logo-1.svg"
+                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-1.svg"
                             alt="Loch Homes Logo"
                             width={300}
                             height={300}
-                            className="sm:w-56 lg:w-[300px] object-contain"
+                            className="sm:w-60 lg:w-[300px] object-contain"
                         />
                     </div>
                 </div>
 
                 {/* ✅ Hero Text */}
-                <div className="text-left sm:text-center lg:text-left">
-                    <p className="text-xs text-center sm:text-left sm:text-sm text-gray-200 mb-1 tracking-wide">
+                <div className="">
+                    <p className="text-xs sm:text-sm lg:text-base text-center sm:text-sm md:text-center lg:text-left text-gray-200 mb-1 tracking-wide">
                         / Welcome to Loch Homes
                     </p>
 
-                    <h1 className="max-w-[20ch] text-center sm:text-left sm:max-w-[25ch] md:text-left md:max-w-[30ch] text-4xl sm:text-4xl md:text-5xl font-bold text-white leading-snug break-words">
-                    Sell Your House Fast - Get Cash in Hand, Quickly.
+                    <h1 className="max-w-[25ch] md:max-w-[30ch] lg:max-w-[40ch] text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-center lg:text-left font-bold text-white leading-snug break-words">
+                        Sell Your House Fast - Get Cash in Hand, Quickly.
                     </h1>
-                    <p className="text-gray-300 mt-2 text-sm text-center md:text-left sm:text-left sm:text-base">
+                    <p className="text-gray-300 mt-2 text-sm sm:text-base lg:text-lg text-center lg:text-left lg:mr-10">
                         No matter the condition, size, age or situation - we'll make you a fair cash offer.
                     </p>
 
@@ -90,25 +98,27 @@ export default function Hero() {
                     <a
                         href="#how-it-works"
                         className="
-                        w-full sm:w-auto 
-                        px-4 py-2 text-sm 
-                        sm:px-5 sm:py-2.5 sm:text-base 
-                        md:px-6 md:py-3 md:text-lg
-                        text-center bg-orange-600 text-white font-medium rounded shadow 
-                        hover:bg-orange-700 transition
+                            w-full sm:w-auto 
+                            px-4 py-2 text-sm 
+                            sm:px-5 sm:py-2.5 sm:text-base 
+                            md:px-6 md:py-3 md:text-lg
+                            text-center bg-orange-600 text-white font-medium rounded shadow 
+                            hover:bg-orange-700 transition
+                            rounded-lg
                         "
                     >
                         How it works?
                     </a>
                     <a
-                        href="#contact"
+                        href="#contact-us"
                         className="
-                        w-full sm:w-auto 
-                        px-4 py-2 text-sm 
-                        sm:px-5 sm:py-2.5 sm:text-base 
-                        md:px-6 md:py-3 md:text-lg
-                        text-center bg-white text-gray-800 font-medium rounded shadow 
-                        hover:bg-gray-100 transition
+                            w-full sm:w-auto 
+                            px-4 py-2 text-sm 
+                            sm:px-5 sm:py-2.5 sm:text-base 
+                            md:px-6 md:py-3 md:text-lg
+                            text-center bg-white text-gray-800 font-medium rounded shadow 
+                            hover:bg-gray-100 transition
+                            rounded-lg
                         "
                     >
                         Contact Us!
