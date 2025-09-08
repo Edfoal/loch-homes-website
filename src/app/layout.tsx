@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 // SEO Metadata
 export const metadata: Metadata = {
-    title: "My Single Page Website",
-    description: "A modern single-page website built with Next.js and Tailwind CSS.",
+    title: "Loch Homes",
+    description: "",
     keywords: [
         "Next.js",
         "Tailwind CSS",
