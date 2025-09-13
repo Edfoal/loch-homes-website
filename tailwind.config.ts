@@ -14,9 +14,9 @@ export default {
             "100%": { transform: "translateY(0) scale(1)" },
           },
         },
-        animation: {
-          bounceInUp: "bounceInUp 1s ease-out",
-        },
+        // animation: {
+        //   bounceInUp: "bounceInUp 1s ease-out",
+        // },
         screens: {
         sm: "640px",
         md: "768px",
