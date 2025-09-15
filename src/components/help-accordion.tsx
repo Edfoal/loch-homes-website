@@ -52,7 +52,7 @@ export default function HelpAccordion() {
                 At Loch Homes, we know that life can throw unexpected challenges your way. Whether
                 you're facing foreclosure, navigating probate, dealing with unpaid taxes, property
                 already sold at a tax sale or simply ready to sell, we're here to guide you every step
-                of the way. Our goal is to provide fast, straightforward solutions — with no upfront
+                of the way. Our goal is to provide fast, straightforward solutions with no upfront
                 costs to you.
             </p>
 

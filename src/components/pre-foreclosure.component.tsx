@@ -24,7 +24,7 @@ export default function ForeclosureNotice() {
 		<div className="space-y-6 sm:space-y-8 md:space-y-10 xl:space-y-12 px-10 lg:px-20">
 			{/* Item 1 */}
 			<div className="flex items-start space-x-3 sm:space-x-4">
-				<FaMoneyBillWave className="text-white text-2xl sm:text-3xl lg:text-5xl flex-shrink-0" />
+				<Image src="/assets/dollar-bag.svg" className="justify-center items-center" alt="dollar-bag" height={60} width={60}/>
 				<div>
 				<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 					Foreclosure help isn’t one-size-fits-all.
@@ -37,13 +37,13 @@ export default function ForeclosureNotice() {
 
 			{/* Item 2 */}
 			<div className="flex items-start space-x-3 sm:space-x-4">
-				<FaClock className="text-white text-2xl sm:text-3xl lg:text-5xl flex-shrink-0" />
+				<Image src="/assets/clock.svg" className="justify-center items-center" alt="dollar-bag" height={60} width={60}/>
 				<div>
 				<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 					Behind on payments? We can still help.
 				</h3>
 				<p className="text-xs sm:text-sm md:text-base lg:text-lg">
-					A foreclosure auction date doesn’t have to mean the end — you could still sell 
+					A foreclosure auction date doesn’t have to mean the end, you could still sell 
 					your home and prevent foreclosure, even at the last minute.
 				</p>
 				</div>
@@ -51,7 +51,7 @@ export default function ForeclosureNotice() {
 
 			{/* Item 3 */}
 			<div className="flex items-start space-x-3 sm:space-x-4">
-				<FaHome className="text-white text-2xl sm:text-3xl lg:text-5xl flex-shrink-0" />
+				<Image src="/assets/home-icon-1.svg" className="justify-center items-center" alt="dollar-bag" height={60} width={60}/>
 				<div>
 				<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 					No repairs, no cleanup needed.
@@ -65,7 +65,7 @@ export default function ForeclosureNotice() {
 
 			{/* Item 4 */}
 			<div className="flex items-start space-x-3 sm:space-x-4">
-				<FaChartLine className="text-white text-2xl sm:text-3xl lg:text-5xl flex-shrink-0" />
+				<Image src="/assets/positive-dynamic.svg" className="justify-center items-center" alt="dollar-bag" height={60} width={60}/>
 				<div>
 				<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 					Cash in Hand. Credit Protected. Fresh Start

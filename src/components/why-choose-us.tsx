@@ -28,7 +28,7 @@ export default function WhyChooseLochHomes() {
             <div className="flex items-start space-x-3 sm:space-x-4">
                 <FaCheckCircle className="text-white text-xl sm:text-2xl lg:text-3xl flex-shrink-0" />
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl">
-                    No upfront costs — ever.
+                    No upfront costs ever.
                 </p>
             </div>
 

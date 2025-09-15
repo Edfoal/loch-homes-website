@@ -17,31 +17,39 @@ const testimonials = [
     text: "I can’t say enough nice things about Kaylee and LochHomes. Kaylee was a bright positive light in the dark situation I found myself in. She helped us even when she received nothing for it… you just don’t find to many people like that. She was honest and straight forward and I would recommend her and the company she works for 100%.",
     author: "Alexa Bonadia",
   },
-//   {
-//     id: 3,
-//     text: "Lorem ipsum dolor sit amet consectetur. Adipiscing ut nisi leo nibh eros in. Sed nulla quis scelerisque vitae. Fringilla massa facilisis non mattis mauris nisl. Dui ut hendrerit fames imperdiet proin nisl sit mauris.",
-//     author: "David Miller",
-//   },
+  {
+    id: 3,
+    text: "Loch Homes was a game-changer for me. I was behind on payments and facing a foreclosure date. I thought I was out of options. They stepped in, explained my choices clearly, and made me a fair cash offer without asking for repairs or cleanup. Because of their help, I avoided foreclosure, protected my credit, and actually walked away with money at closing. They handled everything from start to finish, which gave me the fresh start I desperately needed.",
+    author: "Ravi Pawar",
+  },
 ];
 
+
 function TestimonialCard({ text, author }: { text: string; author: string }) {
-	return (
-		<div className="relative bg-white shadow-md rounded-md text-gray-600 max-w-md mx-auto overflow-visible">
-		{/* ✅ Brown border across full width */}
-		<div className="absolute top-0 left-0 right-0 h-[4px] bg-[#B5542F] rounded-t-md" />
+  return (
+    <div className="relative bg-white shadow-md rounded-md text-gray-600 max-w-md mx-auto h-64 pb-10">
+      {/* ✅ Brown border across full width */}
+      <div className="absolute top-0 left-0 right-0 h-[4px] bg-[#B5542F] rounded-t-md" />
 
-		{/* ✅ Quote Icon overlapping border on top-left */}
-		<div className="absolute -top-4 left-10 bg-[#B5542F] text-white p-2 rounded-full shadow-md">
-				<FaQuoteLeft size={20} />
-		</div>
+      {/* ✅ Quote Icon overlapping border on top-left */}
+      <div className="absolute -top-6 left-10 bg-[#B5542F] text-white p-2 rounded-full shadow-md">
+        <FaQuoteLeft size={30} />
+      </div>
 
-		{/* ✅ Card Content */}
-		<div className="p-6 pt-8">
-			<p className="text-sm leading-relaxed">{text}</p>
-			<p className="mt-4 font-semibold text-black">{author}</p>
-		</div>
-		</div>
-	);
+      {/* ✅ Card Content */}
+      <div className="flex flex-col h-full p-6 pt-8">
+        {/* Text area takes available space */}
+        <p className="text-sm leading-relaxed flex-1 overflow-hidden text-ellipsis">
+          {text}
+        </p>
+
+        {/* Author name is pinned to bottom-left */}
+        <p className="font-semibold text-black mt-4 absolute bottom-4 left-6">
+          {author}
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default function Testimonials() {
@@ -51,7 +59,7 @@ export default function Testimonials() {
         {/* ✅ Section Header */}
         <div className="text-center mb-12">
           <p className="text-sm text-gray-500 tracking-wide">
-            / What people say about Loch Homes.
+            / What people say about Loch Homes
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-black">
             Testimonials

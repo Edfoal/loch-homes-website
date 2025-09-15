@@ -62,7 +62,7 @@ export default function AboutSection() {
 						mx-auto sm:mx-0 text-center
 					"
 					>
-					We help homeowners sell fast—with no fees, no repairs, and no stress. Our process
+					We help homeowners sell fast with no fees, no repairs, and no stress. Our process
 					is simple, honest, and built on trust. When you work with us, you get a fair cash
 					offer, a quick closing, and the freedom to move on on your terms.
 					</p>

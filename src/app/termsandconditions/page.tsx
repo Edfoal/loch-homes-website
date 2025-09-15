@@ -26,16 +26,16 @@ export default function TermsPage() {
           <span className="mr-2">←</span>Back To Home
         </a>
         <div className="flex items-center gap-4 sm:gap-6">
-          <a href="/terms" className="text-[#C2613D] font-semibold hover:underline">
+          <a href="#terms-and-conditions" className="text-[#C2613D] font-semibold hover:underline">
             Terms & Conditions
           </a>
-          <a href="/privacy" className="text-[#C2613D]/70 hover:text-[#C2613D] hover:underline">
+          <a href="/privacypolicy" className="text-[#C2613D]/70 hover:text-[#C2613D] hover:underline">
             Privacy Policy
           </a>
         </div>
       </nav>
 
-      <main className="min-h-screen bg-white text-gray-900 mb-6 pb-6 text-justify">
+      <main id='terms-and-conditions' className="min-h-screen bg-white text-gray-900 mb-6 pb-6 text-justify">
         <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 mb-12 leading-relaxed">
           <h1 className="text-3xl sm:text-[40px] font-bold mb-6 text-center text-[#C2613D] pt-6">Terms & Conditions</h1>
           <p className="mb-4 font-semibold text-sm sm:text-base">

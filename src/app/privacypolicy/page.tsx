@@ -26,16 +26,16 @@ export default function TermsPage() {
                     <span className="mr-2">←</span>Back To Home
                 </a>
                 <div className="flex items-center gap-4 sm:gap-6">
-                    <a href="/terms" className="text-[#C2613D]/70 hover:text-[#C2613D] hover:underline">
+                    <a href="/termsandconditions" className="text-[#C2613D]/70 hover:text-[#C2613D] hover:underline">
                         Terms & Conditions
                     </a>
-                    <a href="/privacy" className="text-[#C2613D] font-semibold hover:underline">
+                    <a href="#privacy-policy" className="text-[#C2613D] font-semibold hover:underline">
                         Privacy Policy
                     </a>
                 </div>
             </nav>
 
-            <main className="min-h-screen bg-white text-gray-900 mb-6 pb-6 text-justify">
+            <main id="privacy-policy" className="min-h-screen bg-white text-gray-900 mb-6 pb-6 text-justify">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 mb-12 leading-relaxed">
                     <h1 className="text-3xl sm:text-[40px] font-bold mb-6 text-center text-[#C2613D] pt-6">Privacy Policy</h1>
                     <p className="mb-4 font-semibold text-sm sm:text-base">
@@ -133,7 +133,7 @@ export default function TermsPage() {
                         The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
                     </p>
                     <h3 className="text-lg sm:text-xl font-medium mb-3 text-[#C2613D]">Transfer of Your Personal Data</h3>
-                    <p className="mb-3 text-sm sm:text-base">    Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+                    <p className="mb-3 text-sm sm:text-base">    Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to and maintained on computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
                         Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
                         The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
                     </p>
