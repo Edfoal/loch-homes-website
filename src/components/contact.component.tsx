@@ -74,7 +74,7 @@ export default function ContactSection() {
 					</h2>
 
 					<p className="mt-3 text-sm sm:text-base md:text-lg text-white-700 leading-relaxed">
-					Reach out anytime <br /> we’re here to make your move hassle-free.
+					Reach out anytime, We’re here to help.
 					</p>
 
 					{/* Contact Info */}
