@@ -5,12 +5,13 @@ export default function Hero() {
         <section id="hero" className="relative w-full h-screen">
             {/* ✅ Background Image covering full viewport */}
             <Image
-                src="https://ik.imagekit.io/lochhomesllc/assets/pexels-photo-7031607.jpeg" // Replace with ImageKit background URL
+                src="https://ik.imagekit.io/lochhomesllc/assets/pexels-photo-7031607.jpeg"
                 alt="Hero Background"
                 fill
                 priority
                 className="object-cover"
             />
+            
             {/* ✅ Overlay for better readability */}
             {/* ✅ Circular vignette overlay */}
             <div
@@ -71,7 +72,7 @@ export default function Hero() {
                     {/* Tablet & Desktop → logo-1 */}
                     <div className="hidden lg:!block justify-left">
                         <Image
-                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-1.svg"
+                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-1.png"
                             alt="Loch Homes Logo"
                             width={300}
                             height={300}

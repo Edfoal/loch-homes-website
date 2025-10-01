@@ -41,8 +41,8 @@ export const metadata: Metadata = {
         description: "Sell your house fast - Get Cash in Hand Quickly.",
     },
     icons: {
-        icon: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg",
-        apple: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg",
+        icon: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.webp",
+        apple: "https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.webp",
     },
     metadataBase: new URL("https://yourwebsite.com"),
 };

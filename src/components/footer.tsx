@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Column 1: Logo */}
           <div className="flex justify-center lg:justify-start mb-6 sm:mb-0">
             <Image
-              src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.svg"
+              src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-3.webp"
               alt="Loch Homes Logo"
               width={180}
               height={80}

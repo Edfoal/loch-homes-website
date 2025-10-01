@@ -24,7 +24,7 @@ export default function AboutSection() {
 				{/* Left: Image */}
 				<div className="relative w-full h-[260px] lg:h-full sm:h-[360px] lg:h-[520px]">
 					<Image
-						src="https://ik.imagekit.io/lochhomesllc/assets/abstract-networking-concept-still-life-arrangement%201.svg"
+						src="https://ik.imagekit.io/lochhomesllc/assets/abstract-networking-concept-still-life-arrangement%201.webp"
 						alt="Loch Homes Team"
 						fill
 						priority

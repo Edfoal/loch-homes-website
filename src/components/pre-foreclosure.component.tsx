@@ -83,7 +83,7 @@ export default function ForeclosureNotice() {
           {/* Right Column (Image) */}
           <div className="flex justify-end py-8">
             <Image
-              src="https://ik.imagekit.io/lochhomesllc/assets/pre-foreclosure-house.svg" // replace with actual image path in /public
+              src="https://ik.imagekit.io/lochhomesllc/assets/pre-foreclosure-house.webp" // replace with actual image path in /public
               alt="House"
               width={650}
               height={550}
