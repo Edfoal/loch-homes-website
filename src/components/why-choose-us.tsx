@@ -11,7 +11,7 @@ export default function WhyChooseLochHomes() {
           
           {/* Left Column (Image) */}
           <div className="flex justify-start py-8">
-            <img
+            <Image
                 src="/assets/home-2.webp"
                 alt="Modern House"
                 width={650}
