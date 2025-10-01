@@ -10,7 +10,7 @@ export default function WhyChooseLochHomes() {
           {/* Left Column (Image) */}
           <div className="flex justify-start py-8">
             <Image
-                src="https://ik.imagekit.io/lochhomesllc/assets/home-2.svg" // replace with your actual image inside /public
+                src="./assets/home-2.png" // replace with your actual image inside /public
                 alt="Modern House"
                 width={650}
                 height={550}
