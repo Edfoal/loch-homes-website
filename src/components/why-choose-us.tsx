@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import  Home2 from '../public/assets/home-2.svg';
+
 
 export default function WhyChooseLochHomes() {
   return (
@@ -9,16 +11,20 @@ export default function WhyChooseLochHomes() {
           
           {/* Left Column (Image) */}
           <div className="flex justify-start py-8">
-  <img
-    src="/assets/home-2.svg"  // replace with your actual image inside /public
-    alt="Modern House"
-    width={650}
-    height={550}
-    className="object-cover rounded-md md:w-full lg:max-h-[761px]"
-    loading="lazy"
-    decoding="async"
-  />
-  </div>
+            <img
+                src="/assets/home-2.webp"
+                alt="Modern House"
+                width={650}
+                height={550}
+                className="rounded-md md:w-full lg:max-h-[761px]"
+                style={{
+                  imageRendering: '-webkit-optimize-contrast',
+                  transform: 'translateZ(0)',
+                  // backfaceVisibility: 'hidden',
+                  WebkitBackfaceVisibility: 'hidden',
+                }}
+            />
+          </div>
 
           {/* Right Column (Text + Bullet Points) */}
           <div className="space-y-6 sm:space-y-8 md:space-y-10 xl:space-y-12 px-10 lg:px-20">

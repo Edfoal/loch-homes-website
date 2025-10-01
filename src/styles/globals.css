@@ -16,6 +16,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    
   }
 }
 
@@ -24,4 +25,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+}
+
+img[src$=".svg"] {
+  transform: translateZ(0);
+  image-rendering: -webkit-optimize-contrast;
 }

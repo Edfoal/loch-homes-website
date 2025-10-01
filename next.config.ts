@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
 		domains: [
 			"ik.imagekit.io",   // Add your image CDN or external domains
 		],
+		dangerouslyAllowSVG: true,   // 👈 allows SVGs but bypasses optimizer
 	},
 
 	// Internationalization (if you have multiple languages)
@@ -30,7 +31,7 @@ const nextConfig: NextConfig = {
 
 	// SEO & Performance
 	poweredByHeader: false,  // removes "X-Powered-By: Next.js"
-	compress: true,          // enable gzip compression
+	// compress: true,          // enable gzip compression
 	trailingSlash: false,    // keep clean URLs (e.g. /about not /about/)
 
 	// Custom webpack config (optional)
