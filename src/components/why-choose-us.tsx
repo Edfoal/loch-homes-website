@@ -9,14 +9,16 @@ export default function WhyChooseLochHomes() {
           
           {/* Left Column (Image) */}
           <div className="flex justify-start py-8">
-            <Image
-                src="/assets/home-2.svg" // replace with your actual image inside /public
-                alt="Modern House"
-                width={650}
-                height={550}
-                className="object-cover rounded-md md:w-full lg:max-h-[761px]"
-            />
-          </div>
+  <img
+    src="/assets/home-2.svg"  // replace with your actual image inside /public
+    alt="Modern House"
+    width={650}
+    height={550}
+    className="object-cover rounded-md md:w-full lg:max-h-[761px]"
+    loading="lazy"
+    decoding="async"
+  />
+  </div>
 
           {/* Right Column (Text + Bullet Points) */}
           <div className="space-y-6 sm:space-y-8 md:space-y-10 xl:space-y-12 px-10 lg:px-20">
