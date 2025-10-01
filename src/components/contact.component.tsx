@@ -99,7 +99,7 @@ export default function ContactSection() {
 					<div className="flex items-center gap-3 justify-center lg:justify-start">
 						<FaMapMarkerAlt className="text-xl md:text-2xl text-white" />
 						<span className="text-sm sm:text-base md:text-lg text-white leading-relaxed">
-						3300 Hamilton Mill Rd #999,
+						3300 Hamilton Mill Rd,
 						<br /> Buford, GA 30519
 						</span>
 					</div>
@@ -113,9 +113,9 @@ export default function ContactSection() {
 					<a href="#" className="bg-white text-[#c85d32] p-2 rounded-full">
 						<FaInstagram />
 					</a>
-					<a href="#" className="bg-white text-[#c85d32] p-2 rounded-full">
+					{/* <a href="#" className="bg-white text-[#c85d32] p-2 rounded-full">
 						<FaDiscord />
-					</a>
+					</a> */}
 					</div>
 				</div>
 			</div>

@@ -54,7 +54,7 @@ function TestimonialCard({ text, author }: { text: string; author: string }) {
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#fdfbf9] py-16">
+    <section className="bg-[#fdfbf9] pb-16">
       <div className="container mx-auto px-6">
         {/* ✅ Section Header */}
         <div className="text-center mb-12">

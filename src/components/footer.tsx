@@ -22,8 +22,8 @@ export default function Footer() {
           {/* Column 2: Address + Contact Info */}
           <div className="flex flex-col gap-3 text-sm text-center sm:text-left">
             <p>
-              10, Street 12 <br />
-              Washington DC, USA 123-456
+              3300 Hamilton Mill Rd,<br />
+              Buford, GA 30519
             </p>
             <div className="flex items-center justify-center sm:justify-start gap-2">
               <FaPhoneAlt className="text-orange-500" />
@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="flex items-center justify-center sm:justify-start gap-2">
               <FaEnvelope className="text-orange-500" />
               <a href="mailto:info@lochhomes.com" className="hover:text-orange-400">
-                info@lochhomes.com
+						    lochhomesllc@gmail.com
               </a>
             </div>
           </div>

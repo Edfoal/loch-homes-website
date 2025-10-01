@@ -15,6 +15,7 @@ export default function WhyChooseLochHomes() {
                 width={650}
                 height={550}
                 className="object-cover rounded-md md:w-full lg:max-h-[761px]"
+                unoptimized={true}
             />
           </div>
 
