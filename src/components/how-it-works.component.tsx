@@ -15,7 +15,7 @@ export default function HowItWorks() {
 		{/* Image for md & lg screens */}
 		<div className="hidden xl:block px-16 py-12">
 			<Image
-				src="https://ik.imagekit.io/lochhomesllc/assets/how-it-works-1.svg" // 🔁 replace with your md/lg image
+				src="https://ik.imagekit.io/lochhomesllc/assets/how-it-works-1.webp"
 				alt="How it works"
 				width={1920}
 				height={1080}
@@ -27,7 +27,7 @@ export default function HowItWorks() {
 		{/* Image for sm screens */}
 		<div className="block xl:hidden py-8">
 			<Image
-				src="https://ik.imagekit.io/lochhomesllc/assets/how-it-works-2.svg" // 🔁 replace with your sm image
+				src="https://ik.imagekit.io/lochhomesllc/assets/how-it-works-2.webp"
 				alt="How it works mobile"
 				width={500}
 				height={800}
