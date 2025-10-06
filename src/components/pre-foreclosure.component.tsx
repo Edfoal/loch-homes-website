@@ -24,7 +24,7 @@ export default function ForeclosureNotice() {
 			<div className="space-y-6 sm:space-y-8 md:space-y-10 xl:space-y-12 px-10 lg:px-20">
 				{/* Item 1 */}
 				<div className="flex items-start space-x-3 sm:space-x-4">
-					<Image src="/assets/dollar-bag.webp" className="justify-center items-center" alt="dollar-bag-icon" height={60} width={60}/>
+					<Image src="/assets/dollar-bag.webp" className="w-14 h-14 justify-center items-center" alt="dollar-bag-icon" height={60} width={60}/>
 					<div>
 					<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 						Foreclosure help isn’t one-size-fits-all.
@@ -37,7 +37,7 @@ export default function ForeclosureNotice() {
 
 				{/* Item 2 */}
 				<div className="flex items-start space-x-3 sm:space-x-4">
-					<Image src="/assets/clock.webp" className="justify-center items-center" alt="clock-icon" height={60} width={60}/>
+					<Image src="/assets/clock.webp" className="w-14 h-14 justify-center items-center" alt="clock-icon" height={60} width={60}/>
 					<div>
 					<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 						Behind on payments? We can still help.
@@ -51,7 +51,7 @@ export default function ForeclosureNotice() {
 
 				{/* Item 3 */}
 				<div className="flex items-start space-x-3 sm:space-x-4">
-					<Image src="/assets/home-icon-1.webp" className="justify-center items-center" alt="home-icon" height={60} width={60}/>
+					<Image src="/assets/home-icon-1.webp" className="w-14 h-14 justify-center items-center" alt="home-icon" height={60} width={60}/>
 					<div>
 					<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 						No repairs, no cleanup needed.
@@ -65,7 +65,7 @@ export default function ForeclosureNotice() {
 
 				{/* Item 4 */}
 				<div className="flex items-start space-x-3 sm:space-x-4">
-					<Image src="/assets/positive-dynamic.webp" className="justify-center items-center" alt="positive-dynamic-icon" height={60} width={60}/>
+					<Image src="/assets/positive-dynamic.webp" className="w-14 h-14 justify-center items-center" alt="positive-dynamic-icon" height={60} width={60}/>
 					<div>
 					<h3 className="font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
 						Cash in Hand. Credit Protected. Fresh Start
