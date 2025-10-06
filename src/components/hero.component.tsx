@@ -60,7 +60,7 @@ export default function Hero() {
                     {/* Mobile → logo-2 */}
                     <div className="block lg:!hidden justify-center">
                         <Image
-                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-2.svg"
+                            src="https://ik.imagekit.io/lochhomesllc/assets/loch-homes-logo-2.png"
                             alt="Loch Homes Logo"
                             width={300}
                             height={300}
