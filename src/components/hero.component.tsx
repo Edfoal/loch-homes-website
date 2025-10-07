@@ -5,7 +5,7 @@ export default function Hero() {
         <section id="hero" className="relative w-full h-screen">
             {/* ✅ Background Image covering full viewport */}
             <Image
-                src="https://ik.imagekit.io/lochhomesllc/assets/pexels-photo-7031607.jpeg"
+                src="https://ik.imagekit.io/lochhomesllc/assets/pexels-photo-7031607-hd.jpeg"
                 alt="Hero Background"
                 fill
                 priority
