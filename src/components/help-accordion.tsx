@@ -26,7 +26,7 @@ const accordionData = [
     {
         title: "Listing Your Property on the Market",
         content:
-        "Ready to sell? We help you list your property and get a fair offer quickly, with no repairs or hassle.",
+        "If our offer isn’t the right fit, we can help you list your property on the market to find the best buyer.",
     },
 ];
 
